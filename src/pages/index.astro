@@ -1,16 +1,11 @@
 ---
-
+import Layout from '../layouts/layouts.astro'
+import Navbar from  '../components/navbar.astro'
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title >Astro</title>
-	</head>
-	<body>
-		<h1 class="bg-yellow-500" >Astro</h1>
-	</body>
-</html>
+<Layout title ="Jovic" >
+ 
+  <Navbar/>
+  <h1 class="text-3xl font-bold ">hello jovic</h1>
+
+</Layout>
