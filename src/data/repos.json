@@ -1,0 +1,26 @@
+[
+  {
+    "name": "zen-mode",
+    "url": "https://github.com/leabs/zen-mode",
+    "description": "Astro site that generates a dashboard of iframes and appends URL params , that me the real meThis is an aplication used by student all over the global to calculate their cut off points in just split seconds",
+    "projectType": "/Xephas.jpg"
+  },
+  {
+    "name": "Cal Cas",
+    "url": "https://github.com/leabs/misc-python-apps",
+    "description": "This is an aplication used by student all over the global to calculate their cut off points in just split seconds This is an aplication used by student all over the global to calculate their cut off points in just split secondsThis is an aplication used by student all over the global to calculate their cut off points in just split secondsThis is an aplication used by student all over the global to calculate their cut off points in just split secondsThis is an aplication used by student all over the global to calculate their cut off points in just split seconds",
+    "projectType": "/Xephas.jpg"
+  },
+  {
+    "name": "MMM-urbandictionary",
+    "url": "https://github.com/leabs/MMM-urbandictionary",
+    "description": "MagicMirror Module displaying random words from urbandictionary's API",
+    "projectType": "/Xephas.jpg"
+  },
+  {
+    "name": "leetcode-answers",
+    "url": "https://github.com/leabs/leetcode-answers",
+    "description": "Jekyll daily blog solving the LeetCode question of the day in JS",
+    "projectType": "/Xephas.jpg"
+  }
+]
