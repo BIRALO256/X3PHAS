@@ -1,26 +1,38 @@
 [
   {
-    "name": "zen-mode",
-    "url": "https://github.com/leabs/zen-mode",
-    "description": "Astro site that generates a dashboard of iframes and appends URL params , that me the real meThis is an aplication used by student all over the global to calculate their cut off points in just split seconds",
+    "name": "Calcut ",
+    "url": "https://calcut.web.app/",
+    "description": "Cracked the code for 5,500+. Calcut empowers YOU with accurate cut-off points & a thriving community. Navigate admissions with confidence. ✨",
     "projectType": "/Xephas.jpg"
   },
   {
-    "name": "Cal Cas",
-    "url": "https://github.com/leabs/misc-python-apps",
-    "description": "This is an aplication used by student all over the global to calculate their cut off points in just split seconds This is an aplication used by student all over the global to calculate their cut off points in just split secondsThis is an aplication used by student all over the global to calculate their cut off points in just split secondsThis is an aplication used by student all over the global to calculate their cut off points in just split secondsThis is an aplication used by student all over the global to calculate their cut off points in just split seconds",
+    "name": "Cupertino Icons Gallery ",
+    "url": "https://cupertino-icons.web.app/",
+    "description": "A home to over 1,330 Cupertino Icons used in Flutter (Open Source with 14 GitHub Stars) used by over 2,000 Flutter Developers around the World.",
     "projectType": "/Xephas.jpg"
   },
   {
-    "name": "MMM-urbandictionary",
-    "url": "https://github.com/leabs/MMM-urbandictionary",
-    "description": "MagicMirror Module displaying random words from urbandictionary's API",
+    "name": "Draaaft",
+    "url": "https://draaaft.web.app/",
+    "description": "A graphics design portfolio and ordering app) with over 400 users.",
     "projectType": "/Xephas.jpg"
   },
   {
-    "name": "leetcode-answers",
-    "url": "https://github.com/leabs/leetcode-answers",
-    "description": "Jekyll daily blog solving the LeetCode question of the day in JS",
+    "name": "Kalya Courts Hotel Management System.",
+    "url": "https://kalyacourtshotel.web.app/",
+    "description": "loremmkmskmdk knksmksmd kmkskfskfk ksksnfkk ksfkskfnks knfks fnknfksn",
+    "projectType": "/Xephas.jpg"
+  },
+  {
+    "name": "STTS Mobile App",
+    "url": "https://draaaft.web.app/",
+    "description": "STTS Mobile App for Seed Tracing and Tracking, developed during my blended internship (Remote + Physical) from June to September 2023, at Eight Tech Consults Ltd.",
+    "projectType": "/Xephas.jpg"
+  },
+  {
+    "name": "Flutter Community Dashboard App ",
+    "url": "https://fluttercommdashboard.web.app/",
+    "description": "Built during my Participation In Dart Google Summer Of Code (Open Source)",
     "projectType": "/Xephas.jpg"
   }
 ]
