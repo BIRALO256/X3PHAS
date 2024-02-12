@@ -3,10 +3,10 @@ import { Image } from "astro:assets";
 
 ---
 
-<header class="navbar bg-sky-950">
-  <div class="flex justify-between items-center px-6 py-4 md:px-24 md:py-10 max-w-7xl mx-auto">
+<header class="navbar bg-sky-950 fixed left-0 right-0  z-index ">
+  <div class="flex justify-between items-center px-6  py-4 md:px-24 md:py-10 max-w-7xl mx-auto">
     <a href="/" class="flex items-center gap-x-4">
-      <p class="uppercase text-xl text-yellow-200">XEPHAS</p>
+      <p class="uppercase text-xl">XEPHAS</p>
     </a>
     <div class="flex md:hidden">
       <button id="hamburger-btn" class="text-yellow-200 focus:outline-none">
@@ -17,6 +17,7 @@ import { Image } from "astro:assets";
       <li><a href="/about" class="text-yellow-200 font-bold">About</a></li>
       <li><a href="/projects" class="text-yellow-200 font-bold">Projects</a></li>
       <li><a href="/techStack" class="text-yellow-200 font-bold">Tech Stack</a></li>
+
     </ul>
   </div>
 </header>
@@ -25,6 +26,10 @@ import { Image } from "astro:assets";
   .navbar a {
     color: #fff; /* Base color for links */
     transition: color 0.2s ease-in-out; /* Smooth color transition */
+  }
+  header{
+    z-index: 100;
+
   }
 
   .navbar a:hover {

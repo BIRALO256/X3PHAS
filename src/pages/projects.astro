@@ -4,6 +4,7 @@ import Layout from '../layouts/layouts.astro'
 import Main from '../components/Main.astro'
 import AppCards from '../components/ProjectCards.astro'
 import repoData from '../data/repos.json'
+import H1 from '../components/h1.astro'
 export interface Props {
   url: string;
   name: string;
@@ -13,7 +14,10 @@ export interface Props {
 ---
 
 <Layout title="Projects" >
+  
   <Main>
+
+    <H1  text="Projects" ></H1>
 
     <ul class="app-card-list">
       {
