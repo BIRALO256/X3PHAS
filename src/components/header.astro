@@ -3,24 +3,27 @@ import { Image } from "astro:assets";
 
 ---
 
-<header class="navbar bg-sky-950 fixed left-0 right-0  z-index ">
-  <div class="flex justify-between items-center px-6  py-4 md:px-24 md:py-10 max-w-7xl mx-auto">
+<header class="navbar bg-sky-950 fixed left-0 right-0 z-index-2">
+  <div class="flex justify-between items-center px-6 py-4 md:px-24 md:py-10 max-w-7xl mx-auto">
     <a href="/" class="flex items-center gap-x-4">
       <p class="uppercase text-xl">XEPHAS</p>
     </a>
     <div class="flex md:hidden">
       <button id="hamburger-btn" class="text-yellow-200 focus:outline-none">
-        </button>
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 6H20m4 6H20m-4 6H20" stroke="currentColor" stroke-width="2"></path>
+        </svg>
+      </button>
     </div>
     <ul id="menu" class="hidden md:flex gap-x-8">
       <li><a href="/" class="text-yellow-200 font-bold">Home</a></li>
       <li><a href="/about" class="text-yellow-200 font-bold">About</a></li>
       <li><a href="/projects" class="text-yellow-200 font-bold">Projects</a></li>
       <li><a href="/techStack" class="text-yellow-200 font-bold">Tech Stack</a></li>
-
     </ul>
   </div>
 </header>
+
 
 <style>
   .navbar a {
@@ -33,11 +36,11 @@ import { Image } from "astro:assets";
   }
 
   .navbar a:hover {
-    color: #fff; /* Hover color for links (adjust as needed) */
+    color: #fff; 
   }
 
   .navbar a.active {
-    color: #00f; /* Highlight color for active link */
+    color: #00f;
     font-weight: bold;
   }
 </style>
@@ -45,14 +48,15 @@ import { Image } from "astro:assets";
 
   <!--Set active class on nav when the page is active -->
   <script>
-    const nav = document.querySelector(".navbar");
-    const navLinks = nav.querySelectorAll("a");
-    const currentURL = window.location.href;
-    navLinks.forEach((link) => {
-      if (link.href === currentURL) {
-        link.classList.add("active");
-      }
-    });
-    
+ const hamburgerBtn = document.getElementById('hamburger-btn');
+const menu = document.getElementById('menu');
+
+hamburgerBtn.addEventListener('click', () => {
+  hamburgerBtn.classList.toggle('active');
+  menu.classList.toggle('hidden');
+});
+
   </script>
+ 
+
 
